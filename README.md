@@ -19,10 +19,10 @@ foo@bar:~$ cd basic_machine_translation
 foo@bar:~$ python -m venv test_env
 foo@bar:~$ source test_env/bin/activate
 
-[test_env]foo@bar:~$ pip install -r requirements.txt
+foo@bar:~$ pip install -r requirements.txt
 ## create a jupyter profile for this environment
-[test_env]foo@bar:~$ ipython kernel install --user --name=test_env
-[test_env]foo@bar:~$ jupyter notebook
+foo@bar:~$ ipython kernel install --user --name=test_env
+foo@bar:~$ jupyter notebook
 ```
 
 
